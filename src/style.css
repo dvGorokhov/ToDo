@@ -1,0 +1,28 @@
+ul{
+    padding-left: 0 ;
+    list-style-type: none;
+}
+li {   
+    margin: 10px;
+    display: flex !important;
+}
+.toggle{
+    text-decoration: line-through;
+}
+
+.btn-del{
+    border-radius: 10px;
+    width: 60px;
+}
+.btn-outline-success{
+    border-radius: 10px;
+    width: 60px;
+    margin: auto 10px;
+}
+
+.check{
+    box-sizing: border-box;
+    margin: 6px;
+    height: 15px;
+    width: 15px;
+}
