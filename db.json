@@ -1,24 +1,54 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "json-server",
-            "author": "typicode"
-        }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
-        },
-        {
-            "id": 2,
-            "body": "asdasdas comment",
-            "postId": 1
-        }
-    ],
-    "profile": {
-        "name": "typicode"
+  "todos": [
+    {
+      "id": 1,
+      "name": "some comment"
+    },
+    {
+      "id": 2,
+      "name": "asdasdas comment"
+    },
+    {
+      "name": "magaz",
+      "id": 3
     }
+  ],
+  "ListTodos": [
+    {
+      "name": "112312312",
+      "toDosId": "1",
+      "check": false,
+      "id": 1
+    },
+    {
+      "name": "112312312",
+      "toDosId": "1",
+      "check": false,
+      "id": 2
+    },
+    {
+      "name": "rfnfnmcz",
+      "toDosId": 1,
+      "check": false,
+      "id": 3
+    },
+    {
+      "name": "molokrrro",
+      "toDosId": 3,
+      "check": false,
+      "id": 5
+    },
+    {
+      "name": "111",
+      "toDosId": 3,
+      "check": false,
+      "id": 6
+    },
+    {
+      "name": "111",
+      "toDosId": 3,
+      "check": false,
+      "id": 7
+    }
+  ]
 }
