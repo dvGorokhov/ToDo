@@ -6,25 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>ToDoJs</title>
+    <title class="card-header"> all ToDo</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="card">
-            <div class="card-header">
-                <input type="text" id="one" placeholder='enter: '>
-                <button type="submit" class="btn-success">send</button>
-                <button class="random" id="random">random</button>
-            </div>
-            <div class="card-body">
-                <div class="list-group">Lists title:</div>
-                <ul class="card-text"></ul>
+        <div class="card-title"> all ToDo <button class="btn btn-primary" id='sendNewToDo' onclick="addInput()"> new
+                todo</button>
+            <div class="row pt-4 pl-4" id="newListToDo">
             </div>
         </div>
-    </div>
-    <script src="app.js"></script>
+        <script src="all.js"></script>
 </body>
 
 </html>

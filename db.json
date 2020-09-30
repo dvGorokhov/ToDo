@@ -2,53 +2,43 @@
   "todos": [
     {
       "id": 1,
-      "name": "some comment"
+      "name": "nike"
     },
     {
       "id": 2,
-      "name": "asdasdas comment"
-    },
-    {
-      "name": "magaz",
-      "id": 3
+      "name": "5ka"
     }
   ],
   "ListTodos": [
     {
-      "name": "112312312",
-      "toDosId": "1",
+      "name": "snikers",
+      "toDosId": 1,
       "check": false,
       "id": 1
     },
     {
-      "name": "112312312",
-      "toDosId": "1",
+      "name": "milk",
+      "toDosId": 2,
       "check": false,
       "id": 2
     },
     {
-      "name": "rfnfnmcz",
-      "toDosId": 1,
-      "check": false,
+      "name": "bounty",
+      "toDosId": 2,
+      "check": true,
       "id": 3
     },
     {
-      "name": "molokrrro",
-      "toDosId": 3,
+      "name": "cola",
+      "toDosId": 2,
+      "check": true,
+      "id": 4
+    },
+    {
+      "name": "t-shirt",
+      "toDosId": 1,
       "check": false,
       "id": 5
-    },
-    {
-      "name": "111",
-      "toDosId": 3,
-      "check": false,
-      "id": 6
-    },
-    {
-      "name": "111",
-      "toDosId": 3,
-      "check": false,
-      "id": 7
     }
   ]
 }

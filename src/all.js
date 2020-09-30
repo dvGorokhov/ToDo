@@ -4,10 +4,12 @@ const url = 'http://localhost:3000/todos'
 let allToDo = []
 
 function addInput() {
-    let newToDo = document.createElement('li')
+    let newToDo = document.createElement('div')
+    newToDo.classList.add('col-12')
     let newToDoName = document.createElement('input')
+    newToDoName.classList.add('col-8', 'mt-3')
     let confirmBtn = document.createElement('button')
-
+    confirmBtn.classList.add('btn', 'ml-2', 'btn-success')
     if (document.getElementById('newName')) {
         return
     }
@@ -55,21 +57,24 @@ function getToDos() {
         allToDo = data
         showList()
         console.log(allToDo);
-    });
+    })
 }
 function openToDo(id) {
-    window.location.href = 'file:///Users/dmitrygorokhov/Desktop/Projects/ToDo_js/src/index.html?id=' + id
+    window.location.href = 'http://localhost:8080/todos.html?id=' + id
+
 }
 function showList() {
     newListToDo.textContent = ''
     allToDo.forEach(elem => {
-        let newLi = document.createElement('li')
+        let newLi = document.createElement('div')
+        newLi.classList.add('col-8', 'mt-3')
         let goTo = document.createElement('button')
         newLi.textContent = elem.name
+        goTo.classList.add('col-3', 'mt-3')
         goTo.textContent = 'go to ToDo'
         goTo.setAttribute('onclick', 'openToDo(' + elem.id + ')')
-        newLi.appendChild(goTo)
         newListToDo.appendChild(newLi)
+        newListToDo.appendChild(goTo)
     })
 }
 window.onload = function () {
